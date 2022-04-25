@@ -1,0 +1,13 @@
+.tire {
+    list-style: none;
+}
+
+.tire li:before {
+    content:  "–";
+    position: relative;
+    left:     -5px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
